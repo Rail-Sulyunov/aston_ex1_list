@@ -4,16 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6759f48-ad9f-4dfe-a125-ab7c62236090" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/List.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ListIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ListMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ListTest.java" afterDir="false" />
+    <list default="true" id="a6759f48-ad9f-4dfe-a125-ab7c62236090" name="Changes" comment="05.07.2023">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CustomListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/List.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CustomList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ListIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CustomListIterator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ListMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CustomListMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ListTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,8 +41,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
@@ -68,8 +70,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1688563198399</updated>
-      <workItem from="1688563199661" duration="4317000" />
+      <workItem from="1688563199661" duration="6378000" />
     </task>
+    <task id="LOCAL-00001" summary="05.07.2023">
+      <created>1688571690880</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1688571690880</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -85,5 +95,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="05.07.2023" />
+    <option name="LAST_COMMIT_MESSAGE" value="05.07.2023" />
   </component>
 </project>

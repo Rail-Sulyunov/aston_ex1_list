@@ -1,9 +1,9 @@
 import java.util.Iterator;
 
-public class ListIterator <E> implements Iterator<E> {
+public class CustomListIterator<E> implements Iterator<E> {
     private int index = 0;
     private E[] values;
-    public ListIterator(E[] values){
+    public CustomListIterator(E[] values){
         this.values = values;
     }
 

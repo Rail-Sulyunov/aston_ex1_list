@@ -1,28 +1,31 @@
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import java.util.ArrayList;
+import java.util.List;
 
-class ListTest {
+
+class CustomListTest {
+
     private String name;
     private String name1;
     private String name2;
 
+
     @BeforeEach
     void setUp() {
+        CustomList customList = new CustomList<>();
         name = "Rail";
         name1 = "Liliya";
         name2 = "Emil";
     }
 
+    @Test
+    void add() {
+        List<String> expected = CustomList.add();
 
-
-    @org.junit.jupiter.api.Test
-    public void add() {
-
-        List<String> expected = .add();
-
-        List<String> actual = new List<>();
+        List<String> actual = new ArrayList<>();
         actual.add(name);
         actual.add(name1);
         actual.add(name2);
@@ -30,25 +33,23 @@ class ListTest {
         Assertions.assertEquals(,actual);
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     void delete() {
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     void get() {
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     void size() {
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     void update() {
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     void iterator() {
     }
-
-
 }

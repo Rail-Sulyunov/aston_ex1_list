@@ -1,4 +1,4 @@
-public interface ListMethods<E> extends Iterable<E> {
+public interface CustomListMethods<E> extends Iterable<E> {
 
     boolean add(E e);
 

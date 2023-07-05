@@ -1,6 +1,6 @@
 import java.util.Iterator;
 
-public class List<E> implements ListMethods<E> {
+public class CustomList<E> implements CustomListMethods<E> {
 
     public static void main(String[] args) {
 
@@ -9,12 +9,12 @@ public class List<E> implements ListMethods<E> {
 
     private E[] values;
 
-    public  List() {
+    public CustomList() {
         values = (E[]) new Object[0];
     }
 
     @Override
-    public  boolean add(E e) {
+    public   boolean add(E e) {
         try {
             E[] x = values;
             values = (E[]) new Object[x.length + 1];
@@ -62,6 +62,6 @@ public class List<E> implements ListMethods<E> {
      */
     @Override
     public Iterator<E> iterator() {
-        return new ListIterator<>(values);
+        return new CustomListIterator<>(values);
     }
 }

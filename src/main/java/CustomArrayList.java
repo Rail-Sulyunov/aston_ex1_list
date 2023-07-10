@@ -108,8 +108,8 @@ public class CustomArrayList<E> implements CustomList<E> {
 
             swapReferences(a, i, high - 1);
 
-            quicksort(a, low, i - 1); // Sort small elements
-            quicksort(a, i + 1, high); // Sort large elements
+            quicksort(a, low, i - 1);
+            quicksort(a, i + 1, high);
         }
     }
 
